@@ -1,13 +1,20 @@
+/* Para desactivar Scroll por defecto de Bootstrap */
 html{
   scroll-behavior: auto !important;
 }
 
+/* Fondo body color negro */
 body{
-
   background-color: black;
 }
 
+/* Fuentes para párrafos */
+#nosotros p{
+  font-family: "Open Sans";
+  font-weight: lighter;
+}
 
+/* Footer sin subrayado */
 #footer a{
   color: white;
   text-decoration: none;
